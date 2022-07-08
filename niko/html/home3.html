@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home3</title>
+    <style>
+        body {
+            height: 300vh;
+            margin:50px;
+        }
+
+        div > span{
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: underline;
+        }
+        p span{
+            color: white;
+            text-decoration: underline;
+        }
+        input {
+            border: 1px solid wheat;
+        }
+        input:required{
+            border-color: red;
+        }
+        input[placeholder~="name"]{
+            background-color: thistle;
+        }
+        input:focus{
+            background-color: pink;
+        }
+        button:focus{
+            background-color: pink;
+
+        }
+    </style>
+</head>
+<body>
+    <input placeholder="First name" type="text">
+    <input placeholder="Last name" type="text">
+    <input placeholder="password" required type="password">
+    <button> hello</button>
+</body>
+</html>
