@@ -1,0 +1,43 @@
+@import "reset.css";
+body{
+    height: 100vh;
+    background-color: #FF6446;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square1 {
+    background-color: #F5DFB3;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-square-color{
+    background-color: #008080;
+}
+.inner-square-size-1{
+    width: 20%;
+    height: 20%;
+}
+.inner-square-size-2{
+    width: 60%;
+    height: 20%;
+}
+
+.square2 {
+    border: 3px solid #ffffff;
+
+}
+.square3 {
+    border: 3px dashed #ffffff;
+
+}
+.square4 {
+    border: 3px solid #ffffff;
+}
